@@ -14,7 +14,7 @@ class MuseJobDownloader:
     def __init__(self, postgres_config, page_start):
         self.api_base_url = "https://www.themuse.com/api/public"
         self.muse_api_key = MUSE_API_KEY
-        self.postgres_config = POSTGRES_CONFIG
+        self.postgres_config = postgres_config
         self.page_start = page_start
 
     def fetch_jobs(self, company=None):
