@@ -17,6 +17,6 @@ The answer was obtained by:
   * Filtering the final [view/model](/scripts/rpt_jobs_by_metro_summary.sql) by the given timeframe for the NY metro area
     - The model is representative of a pre-aggregated roll up that could support self-service analytics
 
-Vizualizations:
+Visualizations:
   * [Data Pipeline](/docs/DataPipeline.md)
   * [Database Schema](/docs/DbSchema.md)
